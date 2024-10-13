@@ -33,7 +33,7 @@ let myPet = {
         this.happiness -= 5;
         this.hunger += 10;
         
-        // Ensure happiness doesn't go below 0
+
         if (this.happiness < 0) {
             this.happiness = 0;
         }
@@ -46,7 +46,7 @@ let myPet = {
     }
 }
 
-// Function to interact with the pet
+
 
 function interactWithPet() {
     let action;
@@ -77,5 +77,5 @@ function interactWithPet() {
 
 
 
-// Start the interaction
+
 interactWithPet();
