@@ -1,9 +1,9 @@
 let myPet = {
-    name : "pesho",
-    type : "Cat",
-    age : 4,
-    happiness : 70,
-    hunger : 60,
+    name : prompt("enter pet name"),
+    type : prompt("enter what type of pet you have"),
+    age : prompt("enter your pet age"),
+    happiness : prompt("how much your pet happy"),
+    hunger : prompt("how much your pet "),
 
     feed : function () {
         if (this.hunger > 0) {
